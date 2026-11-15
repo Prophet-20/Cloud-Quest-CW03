@@ -64,4 +64,4 @@ flutter drive --driver=test_driver/integration_test.dart \
   --target=integration_test/quest_flow_test.dart -d emulator-5554
 ```
 
-The [132-word reflection](REFLECTION.md) covers the tool, a safety check and its result, and a next step. Push notifications are optional and are not included.
+The [124-word reflection](REFLECTION.md) covers the tool, a safety check and its result, and a next step. Push notifications are optional and are not included.
