@@ -1,0 +1,19 @@
+{
+  "project": "demo-cloud-quest",
+  "challenge": {
+    "path": "challenges/today",
+    "data": {
+      "title": "Identity is not permission",
+      "prompt": "Explain the difference between authentication and authorization. Give one example of a signed-in learner who should still be denied access to another learner’s progress."
+    }
+  },
+  "progress": {
+    "path": "users/2cn6jGHpYJz5Gz9nhJsSyqCW2Zhu/progress/today",
+    "data": {
+      "completed": true,
+      "points": 10,
+      "badgeId": "first-quest",
+      "completedAt": "2026-11-13T22:02:56.313Z"
+    }
+  }
+}

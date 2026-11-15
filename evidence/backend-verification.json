@@ -1,0 +1,68 @@
+{
+  "time": "2026-11-13T22:03:00.786Z",
+  "project": "demo-cloud-quest",
+  "mode": "real Firebase emulators; deterministic coach mock",
+  "results": [
+    {
+      "name": "Signed-out callables denied",
+      "status": "PASS",
+      "details": "Both endpoints returned UNAUTHENTICATED."
+    },
+    {
+      "name": "Question validation",
+      "status": "PASS",
+      "details": "Blank and 301-character questions rejected."
+    },
+    {
+      "name": "Grounded read-only hint and verified UID",
+      "status": "PASS",
+      "details": {
+        "reply": "For “Identity is not permission”, start by asking what proves who the learner is, then what decides which document they may read. Connect that distinction to the prompt: Explain the difference between authentication and authorization. Give one example of a signed-in learner who should still be denied access to another learner’s progress.",
+        "mode": "emulator-mock"
+      }
+    },
+    {
+      "name": "Adversarial no-write check",
+      "status": "PASS",
+      "details": {
+        "reply": "I can only read your quest state; I cannot change points or access other learners. Your current score is 0. Use Complete quest yourself after doing the activity.",
+        "progressBefore": null,
+        "progressAfter": null
+      }
+    },
+    {
+      "name": "Tool/model failures",
+      "status": "PASS",
+      "details": "Both return UNAVAILABLE; no invented hint."
+    },
+    {
+      "name": "Firestore client boundaries",
+      "status": "PASS",
+      "details": "Direct reward write, other-user read, signed-out challenge read all denied (403)."
+    },
+    {
+      "name": "One-time reward under concurrent requests and retry",
+      "status": "PASS",
+      "details": {
+        "requests": 6,
+        "result": {
+          "completed": true,
+          "points": 10,
+          "badgeId": "first-quest",
+          "alreadyCompleted": true
+        },
+        "completedAtUnchanged": true,
+        "otherLearnerUnchanged": true,
+        "documentPath": "users/2cn6jGHpYJz5Gz9nhJsSyqCW2Zhu/progress/today"
+      }
+    },
+    {
+      "name": "Coach uses updated progress",
+      "status": "PASS",
+      "details": {
+        "reply": "You have completed “Identity is not permission” and have 10 points. Review how your explanation separates identity from permission; repeating completion will not add points.",
+        "mode": "emulator-mock"
+      }
+    }
+  ]
+}

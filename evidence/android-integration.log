@@ -1,0 +1,255 @@
+Resolving dependencies...
+Downloading packages...
+  cupertino_icons 1.0.9 (2.0.0 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.18.3 (1.19.0 available)
+  test_api 0.7.12 (0.7.15 available)
+  vector_math 2.4.0 (2.4.4 available)
+Got dependencies!
+5 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Running Gradle task 'assembleDebug'...                          
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader in an unnamed module (file:/Users/blakecantave/.gradle/wrapper/dists/gradle-9.3.1-all/9ot9r568e8zfvvd4mn8rbu1j0/gradle-9.3.1/lib/native-platform-0.22-milestone-29.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: Your app uses the following plugins that apply Kotlin Gradle Plugin (KGP): cloud_functions, firebase_auth, firebase_core
+Future versions of Flutter will fail to build if your app uses plugins that apply KGP.
+
+Please check the changelogs of these plugins and upgrade to a version that supports Built-in Kotlin.
+If no such version exists, report the issue to the plugin. If necessary, here is a guide on filing
+an issue against a plugin: https://docs.flutter.dev/release/breaking-changes/migrate-to-built-in-kotlin/for-app-developers#report-incompatible-kotlin-gradle-plugin-usage-to-plugin-authors
+
+If you are a plugin author, please migrate your plugin to Built-in Kotlin using this guide: https://docs.flutter.dev/release/breaking-changes/migrate-to-built-in-kotlin/for-plugin-authors
+Running Gradle task 'assembleDebug'...                              6.7s
+✓ Built build/app/outputs/flutter-apk/app-debug.apk
+Installing build/app/outputs/flutter-apk/app-debug.apk...          278ms
+D/WindowLayoutComponentImpl( 5526): Register WindowLayoutInfoListener on Context=edu.gsu.blake.cloud_quest.MainActivity@2de13d, of which baseContext=android.app.ContextImpl@64f6a7e
+D/FlutterJNI( 5526): Sending viewport metrics to the engine.
+VMServiceFlutterDriver: Connecting to Flutter application at http://127.0.0.1:51315/A_zifi70FhA=/
+VMServiceFlutterDriver: Isolate found with number: 803891262234803
+VMServiceFlutterDriver: Isolate 803891262234803 is runnable.
+VMServiceFlutterDriver: Isolate is paused at start.
+VMServiceFlutterDriver: Attempting to resume isolate
+I/flutter ( 5526): 00:00 +0: Undergraduate learner journey on Android
+VMServiceFlutterDriver: Connected to Flutter application.
+I/FirebaseApp( 5526): Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+D/InsetsController( 5526): hide(ime())
+I/ImeTracker( 5526): edu.gsu.blake.cloud_quest:200104d1: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+D/FlutterJNI( 5526): Sending viewport metrics to the engine.
+I/Surface ( 5526): Creating surface for consumer unnamed-5526-2 with slotExpansion=1 for 64 slots
+I/Surface ( 5526): Creating surface for consumer ImageReader-1344x2992f1m3-5526-0 with slotExpansion=1 for 64 slots
+I/flutter ( 5526): EVIDENCE START 01-signed-out
+I/flutter ( 5526): EVIDENCE DONE 01-signed-out
+I/flutter ( 5526): ACTION toggle-register
+I/flutter ( 5526): VISIBLE toggle-register
+I/flutter ( 5526): TAPPED toggle-register
+I/ImeTracker( 5526): edu.gsu.blake.cloud_quest:6040afe0: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false userId 0 displayId 0
+I/HWUI    ( 5526): Using FreeType backend (prop=Auto)
+D/InsetsController( 5526): show(ime())
+D/InsetsController( 5526): Setting requestedVisibleTypes to 511 (was 503)
+I/ImeTracker( 5526): edu.gsu.blake.cloud_quest:472f5131: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false userId 0 displayId 0
+D/InsetsController( 5526): show(ime())
+I/ImeTracker( 5526): edu.gsu.blake.cloud_quest:472f5131: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+I/AssistStructure( 5526): Flattened final assist data: 432 bytes, containing 1 windows, 3 views
+D/InputConnectionAdaptor( 5526): The input method toggled cursor monitoring on
+I/flutter ( 5526): ACTION authenticate
+I/ImeTracker( 5526): edu.gsu.blake.cloud_quest:78ab8c8c: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false userId 0 displayId 0
+D/InsetsController( 5526): show(ime())
+I/ImeTracker( 5526): edu.gsu.blake.cloud_quest:78ab8c8c: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+D/ProfileInstaller( 5526): Installing profile for edu.gsu.blake.cloud_quest
+I/flutter ( 5526): VISIBLE authenticate
+I/flutter ( 5526): TAPPED authenticate
+I/ImeTracker( 5526): edu.gsu.blake.cloud_quest:168be30b: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false userId 0 displayId 0
+D/InsetsController( 5526): show(ime())
+I/ImeTracker( 5526): edu.gsu.blake.cloud_quest:168be30b: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+D/WindowOnBackDispatcher( 5526): setTopOnBackInvokedCallback (unwrapped): android.view.ImeBackAnimationController@b65d2fc
+D/WindowOnBackDispatcher( 5526): setOnBackInvokedCallbackInfo: android.view.ImeBackAnimationController@b65d2fc
+I/FirebaseAuth( 5526): Creating user with mobile-1794607398796@example.test with empty reCAPTCHA token
+W/System  ( 5526): Ignoring header X-Firebase-Locale because its value was null.
+W/System  ( 5526): Ignoring header X-Firebase-Locale because its value was null.
+I/ImeTracker( 5526): edu.gsu.blake.cloud_quest:ff300fa0: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+D/InsetsController( 5526): hide(ime())
+D/WindowOnBackDispatcher( 5526): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@8da6d88
+D/InsetsController( 5526): Setting requestedVisibleTypes to 503 (was 511)
+I/ImeTracker( 5526): edu.gsu.blake.cloud_quest:6040afe0: onCancelled at PHASE_CLIENT_ANIMATION_CANCEL
+D/CompatChangeReporter( 5526): Compat change id reported: 395521150; UID 10246; state: ENABLED
+D/FlutterJNI( 5526): Sending viewport metrics to the engine.
+D/WindowOnBackDispatcher( 5526): setOnBackInvokedCallbackInfo: android.app.Activity$$ExternalSyntheticLambda0@8da6d88
+W/RemoteInputConnectionImpl( 5526): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 5526): requestCursorUpdates on inactive InputConnection
+W/InteractionJankMonitor( 5526): Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=edu.gsu.blake.cloud_quest
+D/FlutterJNI( 5526): Sending viewport metrics to the engine.
+I/ImeTracker( 5526): system_server:51c9193c: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+I/ImeTracker( 5526): system_server:de4ca4f9: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+D/FlutterJNI( 5526): Sending viewport metrics to the engine.
+D/FlutterJNI( 5526): Sending viewport metrics to the engine.
+D/FlutterJNI( 5526): Sending viewport metrics to the engine.
+D/FlutterJNI( 5526): Sending viewport metrics to the engine.
+D/FlutterJNI( 5526): Sending viewport metrics to the engine.
+I/ImeTracker( 5526): system_server:ce810574: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+D/FlutterJNI( 5526): Sending viewport metrics to the engine.
+D/FirebaseAuth( 5526): Notifying id token listeners about user ( XIlQyPAxF4JZhm2u5Nn5E2tprKg1 ).
+D/FirebaseAuth( 5526): Notifying auth state listeners about user ( XIlQyPAxF4JZhm2u5Nn5E2tprKg1 ).
+D/FlutterJNI( 5526): Sending viewport metrics to the engine.
+D/FlutterJNI( 5526): Sending viewport metrics to the engine.
+D/FlutterJNI( 5526): Sending viewport metrics to the engine.
+D/FlutterJNI( 5526): Sending viewport metrics to the engine.
+D/FlutterJNI( 5526): Sending viewport metrics to the engine.
+D/FlutterJNI( 5526): Sending viewport metrics to the engine.
+D/FlutterJNI( 5526): Sending viewport metrics to the engine.
+I/flutter ( 5526): WAIT Found 0 widgets with text "0 points": []
+W/DynamiteModule( 5526): Local module descriptor class for com.google.android.gms.providerinstaller.dynamite not found.
+I/DynamiteModule( 5526): Considering local module com.google.android.gms.providerinstaller.dynamite:0 and remote module com.google.android.gms.providerinstaller.dynamite:0
+W/ProviderInstaller( 5526): Failed to load providerinstaller module: No acceptable module com.google.android.gms.providerinstaller.dynamite found. Local version is 0 and remote version is 0.
+D/ApplicationLoaders( 5526): Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+D/ApplicationLoaders( 5526): Returning zygote-cached class loader: /system/framework/com.android.location.provider.jar
+D/ApplicationLoaders( 5526): Returning zygote-cached class loader: /system/framework/com.android.media.remotedisplay.jar
+D/ApplicationLoaders( 5526): Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+D/ApplicationLoaders( 5526): Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+D/nativeloader( 5526): Configuring clns-10 for other apk /data/app/~~dy1dXiRCq3BGSyLTFe5drw==/com.google.android.gms-NXkDdJtNdy1P5hqzmJfzZA==/base.apk. target_sdk_version=37, uses_libraries=, library_path=/data/app/~~dy1dXiRCq3BGSyLTFe5drw==/com.google.android.gms-NXkDdJtNdy1P5hqzmJfzZA==/lib/arm64:/data/app/~~dy1dXiRCq3BGSyLTFe5drw==/com.google.android.gms-NXkDdJtNdy1P5hqzmJfzZA==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+I/ake.cloud_quest( 5526): hiddenapi: Accessing hidden method Ldalvik/system/VMStack;->getStackClass2()Ljava/lang/Class; (runtime_flags=0, domain=core-platform, api=unsupported) from Libva; (domain=app, TargetSdkVersion=36) using reflection: allowed
+I/hfpm    ( 5526): Unable to retrieve flag snapshot for com.google.android.gms.providerinstaller#edu.gsu.blake.cloud_quest, using defaults.
+I/ProviderInstaller( 5526): Installed default security provider AndroidOpenSSL (via CompatProvider)
+W/hfpm    ( 5526): Failed to update snapshot for com.google.android.gms.providerinstaller#edu.gsu.blake.cloud_quest flags may be stale.
+W/hfpm    ( 5526): java.io.IOException: Unable to create parent directories of /data/user/0/com.google.android.gms/files/phenotype/shared/com.google.android.gms.providerinstaller#edu.gsu.blake.cloud_quest.pb
+W/hfpm    ( 5526): 	at icjq.c(:com.google.android.gms@264032035@26.40.32 (260400-995630914):36)
+W/hfpm    ( 5526): 	at hfxe.call(:com.google.android.gms@264032035@26.40.32 (260400-995630914):19)
+W/hfpm    ( 5526): 	at ihnm.a(:com.google.android.gms@264032035@26.40.32 (260400-995630914):3)
+W/hfpm    ( 5526): 	at ihmm.run(:com.google.android.gms@264032035@26.40.32 (260400-995630914):18)
+W/hfpm    ( 5526): 	at ihnn.run(:com.google.android.gms@264032035@26.40.32 (260400-995630914):5)
+W/hfpm    ( 5526): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+W/hfpm    ( 5526): 	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+W/hfpm    ( 5526): 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:323)
+W/hfpm    ( 5526): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+W/hfpm    ( 5526): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+W/hfpm    ( 5526): 	at java.lang.Thread.run(Thread.java:1571)
+I/flutter ( 5526): EVIDENCE START 02-signed-in-challenge
+VMServiceFlutterDriver: request_data message is taking a long time to complete...
+I/flutter ( 5526): EVIDENCE DONE 02-signed-in-challenge
+I/flutter ( 5526): ACTION ask-coach
+I/flutter ( 5526): VISIBLE ask-coach
+I/flutter ( 5526): Coach: requesting read-only hint
+I/flutter ( 5526): TAPPED ask-coach
+I/flutter ( 5526): WAIT Found 1 widget with key [<'coach-reply'>]: [
+I/flutter ( 5526):   Text-[<'coach-reply'>]("For “Identity is not permission”, start by asking what proves who the learner is, then what decides which document they may read. Connect that distinction to the prompt: Explain the difference between authentication and authorization. Give one example of a signed-in learner who should still be denied access to another learner’s progress.", dependencies: [DefaultSelectionStyle, DefaultTextStyle, MediaQuery]),
+I/flutter ( 5526): ]
+I/flutter ( 5526): EVIDENCE START 03-grounded-hint
+I/flutter ( 5526): EVIDENCE DONE 03-grounded-hint
+I/ImeTracker( 5526): edu.gsu.blake.cloud_quest:b8b6bd19: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false userId 0 displayId 0
+D/InsetsController( 5526): show(ime())
+D/InsetsController( 5526): Setting requestedVisibleTypes to 511 (was 503)
+I/flutter ( 5526): ACTION ask-coach
+I/ImeTracker( 5526): edu.gsu.blake.cloud_quest:ddb2c203: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false userId 0 displayId 0
+D/InsetsController( 5526): show(ime())
+I/ImeTracker( 5526): edu.gsu.blake.cloud_quest:ddb2c203: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+D/InputConnectionAdaptor( 5526): The input method toggled cursor monitoring on
+I/AssistStructure( 5526): Flattened final assist data: 452 bytes, containing 1 windows, 3 views
+I/flutter ( 5526): VISIBLE ask-coach
+I/flutter ( 5526): Coach: requesting read-only hint
+I/flutter ( 5526): TAPPED ask-coach
+D/WindowOnBackDispatcher( 5526): setTopOnBackInvokedCallback (unwrapped): android.view.ImeBackAnimationController@b65d2fc
+D/WindowOnBackDispatcher( 5526): setOnBackInvokedCallbackInfo: android.view.ImeBackAnimationController@b65d2fc
+I/ImeTracker( 5526): edu.gsu.blake.cloud_quest:f0af1b2d: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+D/InsetsController( 5526): hide(ime())
+D/WindowOnBackDispatcher( 5526): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@8da6d88
+D/InsetsController( 5526): Setting requestedVisibleTypes to 503 (was 511)
+D/WindowOnBackDispatcher( 5526): setOnBackInvokedCallbackInfo: android.app.Activity$$ExternalSyntheticLambda0@8da6d88
+I/flutter ( 5526): WAIT Found 1 widget with key [<'coach-reply'>]: [
+I/flutter ( 5526):   Text-[<'coach-reply'>]("I can only read your quest state; I cannot change points or access other learners. Your current score is 0. Use Complete quest yourself after doing the activity.", dependencies: [DefaultSelectionStyle, DefaultTextStyle, MediaQuery]),
+I/flutter ( 5526): ]
+I/flutter ( 5526): EVIDENCE START 04-adversarial-no-write
+I/flutter ( 5526): EVIDENCE DONE 04-adversarial-no-write
+I/flutter ( 5526): ACTION complete
+I/flutter ( 5526): VISIBLE complete
+I/flutter ( 5526): TAPPED complete
+I/flutter ( 5526): WAIT Found 1 widget with text "10 points": [
+I/flutter ( 5526):   Text-[<'points'>]("10 points", debugLabel: (englishLike headlineMedium 2021).merge((blackMountainView headlineMedium).apply), inherit: false, color: Color(alpha: 1.0000, red: 0.0902, green: 0.1137, blue: 0.1059, colorSpace: ColorSpace.sRGB), family: Roboto, size: 28.0, weight: 400, letterSpacing: 0.0, baseline: alphabetic, height: 1.3x, leadingDistribution: even, decoration: Color(alpha: 1.0000, red: 0.0902, green: 0.1137, blue: 0.1059, colorSpace: ColorSpace.sRGB) TextDecoration.none, dependencies: [DefaultSelectionStyle, DefaultTextStyle, MediaQuery]),
+I/flutter ( 5526): ]
+I/flutter ( 5526): WAIT Found 1 widget with key [<'reward-result'>]: [
+I/flutter ( 5526):   Text-[<'reward-result'>]("Quest complete! You earned 10 points and the First Quest badge.", dependencies: [DefaultSelectionStyle, DefaultTextStyle, MediaQuery]),
+I/flutter ( 5526): ]
+I/flutter ( 5526): EVIDENCE START 05-first-reward
+I/flutter ( 5526): EVIDENCE DONE 05-first-reward
+I/flutter ( 5526): ACTION complete
+I/flutter ( 5526): VISIBLE complete
+I/flutter ( 5526): TAPPED complete
+I/flutter ( 5526): WAIT Found 1 widget with text "Already completed. Your reward stays at 10 points.": [
+I/flutter ( 5526):   Text-[<'reward-result'>]("Already completed. Your reward stays at 10 points.", dependencies: [DefaultSelectionStyle, DefaultTextStyle, MediaQuery]),
+I/flutter ( 5526): ]
+I/flutter ( 5526): EVIDENCE START 06-duplicate-completion
+I/flutter ( 5526): EVIDENCE DONE 06-duplicate-completion
+I/flutter ( 5526): ACTION failure-mode
+I/flutter ( 5526): VISIBLE failure-mode
+I/flutter ( 5526): TAPPED failure-mode
+D/WindowOnBackDispatcher( 5526): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@9f4ba47
+D/WindowOnBackDispatcher( 5526): setOnBackInvokedCallbackInfo: io.flutter.embedding.android.FlutterActivity$1@9f4ba47
+D/WindowOnBackDispatcher( 5526): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@8da6d88
+D/WindowOnBackDispatcher( 5526): setOnBackInvokedCallbackInfo: android.app.Activity$$ExternalSyntheticLambda0@8da6d88
+I/flutter ( 5526): ACTION ask-coach
+I/flutter ( 5526): VISIBLE ask-coach
+I/flutter ( 5526): Coach: requesting read-only hint
+I/flutter ( 5526): TAPPED ask-coach
+I/flutter ( 5526): WAIT Found 1 widget with key [<'coach-error'>]: [
+I/flutter ( 5526):   Text-[<'coach-error'>]("The coach is unavailable. Try again. Your progress has not changed.", inherit: true, color: Color(alpha: 1.0000, red: 0.7294, green: 0.1020, blue: 0.1020, colorSpace: ColorSpace.sRGB), dependencies: [DefaultSelectionStyle, DefaultTextStyle, MediaQuery]),
+I/flutter ( 5526): ]
+I/flutter ( 5526): EVIDENCE START 07-safe-error
+I/flutter ( 5526): EVIDENCE DONE 07-safe-error
+I/flutter ( 5526): ACTION sign-out
+I/flutter ( 5526): VISIBLE sign-out
+I/flutter ( 5526): TAPPED sign-out
+D/FirebaseAuth( 5526): Notifying id token listeners about a sign-out event.
+D/FirebaseAuth( 5526): Notifying auth state listeners about a sign-out event.
+W/Firestore( 5526): (27.1.0) [Firestore]: Listen for QueryWrapper(query=Query(target=Query(challenges/today order by __name__);limitType=LIMIT_TO_FIRST)) failed: Status{code=PERMISSION_DENIED, description=
+W/Firestore( 5526): false for 'get' @ L5, cause=null}
+W/Firestore( 5526): (27.1.0) [Firestore]: Listen for QueryWrapper(query=Query(target=Query(users/XIlQyPAxF4JZhm2u5Nn5E2tprKg1/progress/today order by __name__);limitType=LIMIT_TO_FIRST)) failed: Status{code=PERMISSION_DENIED, description=
+W/Firestore( 5526): false for 'get' @ L9, cause=null}
+I/flutter ( 5526): WAIT Found 1 widget with key [<'email'>]: [
+I/flutter ( 5526):   TextField-[<'email'>](controller: TextEditingController#b5de7(TextEditingValue(text: ┤├, selection: TextSelection.invalid, composing: TextRange(start: -1, end: -1))), decoration: InputDecoration(labelText: "Email"), keyboardType: TextInputType(name: TextInputType.emailAddress, signed: null, decimal: null), autocorrect: false, dependencies: [DefaultSelectionStyle, InheritedCupertinoTheme, MediaQuery, UnmanagedRestorationScope, _InheritedTheme, _LocalizationsScope-[GlobalKey#81755]], state: _TextFieldState#ef1fb),
+I/flutter ( 5526): ]
+I/flutter ( 5526): EVIDENCE START 08-sign-out-gated
+I/flutter ( 5526): EVIDENCE DONE 08-sign-out-gated
+I/ImeTracker( 5526): edu.gsu.blake.cloud_quest:c92d1cc2: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false userId 0 displayId 0
+D/InsetsController( 5526): show(ime())
+D/InsetsController( 5526): Setting requestedVisibleTypes to 511 (was 503)
+I/ImeTracker( 5526): edu.gsu.blake.cloud_quest:03a5b930: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false userId 0 displayId 0
+D/InsetsController( 5526): show(ime())
+I/ImeTracker( 5526): edu.gsu.blake.cloud_quest:03a5b930: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+I/flutter ( 5526): ACTION authenticate
+I/ImeTracker( 5526): edu.gsu.blake.cloud_quest:e3fcf120: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false userId 0 displayId 0
+D/InsetsController( 5526): show(ime())
+I/ImeTracker( 5526): edu.gsu.blake.cloud_quest:e3fcf120: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+I/ImeTracker( 5526): edu.gsu.blake.cloud_quest:b16e169b: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false userId 0 displayId 0
+D/InsetsController( 5526): show(ime())
+I/ImeTracker( 5526): edu.gsu.blake.cloud_quest:b16e169b: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+I/flutter ( 5526): VISIBLE authenticate
+I/flutter ( 5526): TAPPED authenticate
+W/RemoteInputConnectionImpl( 5526): requestCursorUpdates on inactive InputConnection
+I/AssistStructure( 5526): Flattened final assist data: 432 bytes, containing 1 windows, 3 views
+W/RemoteInputConnectionImpl( 5526): getSurroundingText on inactive InputConnection
+I/AssistStructure( 5526): Flattened final assist data: 432 bytes, containing 1 windows, 3 views
+I/FirebaseAuth( 5526): Logging in as mobile-1794607398796@example.test with empty reCAPTCHA token
+W/System  ( 5526): Ignoring header X-Firebase-Locale because its value was null.
+I/ImeTracker( 5526): edu.gsu.blake.cloud_quest:640fe370: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+D/InsetsController( 5526): hide(ime())
+D/InsetsController( 5526): Setting requestedVisibleTypes to 503 (was 511)
+D/WindowOnBackDispatcher( 5526): setTopOnBackInvokedCallback (unwrapped): android.view.ImeBackAnimationController@b65d2fc
+D/WindowOnBackDispatcher( 5526): setOnBackInvokedCallbackInfo: android.view.ImeBackAnimationController@b65d2fc
+I/ImeTracker( 5526): edu.gsu.blake.cloud_quest:c92d1cc2: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+I/ImeTracker( 5526): system_server:c08b4650: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+W/RemoteInputConnectionImpl( 5526): requestCursorUpdates on inactive InputConnection
+W/RemoteInputConnectionImpl( 5526): getSurroundingText on inactive InputConnection
+W/System  ( 5526): Ignoring header X-Firebase-Locale because its value was null.
+D/WindowOnBackDispatcher( 5526): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@8da6d88
+D/WindowOnBackDispatcher( 5526): setOnBackInvokedCallbackInfo: android.app.Activity$$ExternalSyntheticLambda0@8da6d88
+I/ImeTracker( 5526): system_server:36e08239: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+D/FirebaseAuth( 5526): Notifying id token listeners about user ( XIlQyPAxF4JZhm2u5Nn5E2tprKg1 ).
+D/FirebaseAuth( 5526): Notifying auth state listeners about user ( XIlQyPAxF4JZhm2u5Nn5E2tprKg1 ).
+I/flutter ( 5526): WAIT Found 0 widgets with text "10 points": []
+I/flutter ( 5526): EVIDENCE START 09-sign-in-progress-retained
+I/flutter ( 5526): EVIDENCE DONE 09-sign-in-progress-retained
+E/ConsumerBase( 5526): [ImageReader-1344x2992f1m3-5526-0] abandonLocked: ConsumerBase is abandoned!
+I/flutter ( 5526): 00:17 +1: (tearDownAll)
+I/flutter ( 5526): 00:17 +2: All tests passed!
+All tests passed.

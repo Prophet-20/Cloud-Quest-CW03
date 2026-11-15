@@ -1,0 +1,9 @@
+PASS: Signed-out callables denied
+PASS: Question validation
+PASS: Grounded read-only hint and verified UID
+PASS: Adversarial no-write check
+PASS: Tool/model failures
+PASS: Firestore client boundaries
+PASS: One-time reward under concurrent requests and retry
+PASS: Coach uses updated progress
+All 8 verification groups passed.
