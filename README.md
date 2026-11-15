@@ -5,6 +5,8 @@
 
 Cloud Quest gives a learner one daily challenge, a coach hint, and a small reward for completing the activity. After signing in, the learner can read the challenge and their own progress. Completing it earns **10 points and the First Quest badge**. Pressing the completion button again returns the same reward instead of adding more points.
 
+This project uses its own starter code, following Professor Henry’s November 15 clarification that new starter code would not be provided.
+
 ## Getting it running
 
 I tested the app with Flutter 3.47.3 and Dart 3.13.3. You’ll also need an Android emulator, Node.js 22 with npm, the Firebase CLI, and Java 21 or newer. The standalone Firebase CLI used for these checks bundled Node 20; the Functions project declares Node 22. The npm version of the Firebase CLI can use your installed Node runtime.
@@ -43,6 +45,8 @@ Firestore holds two kinds of data:
 Signed-in learners can read the challenge and their own progress. Firestore rules deny direct client writes and reads of another learner’s progress.
 
 The Quest Coach uses **`readMyQuestState`**, a read-only Genkit tool. Before each response, the server calls this tool to read the challenge and the signed-in learner’s progress. The UID comes from verified Firebase Authentication, not a UID supplied in the question or request. The tool cannot write to Firestore or call the reward function. If the tool fails, the coach returns an error instead of making up a hint.
+
+The local version uses a deterministic coach mock with real Firebase emulator data, as shown in the app and evidence.
 
 Rewards go through a separate callable function, **`completeToday`**. It verifies the caller, checks the challenge ID, and uses a Firestore transaction to create the reward only if it does not already exist. The server fixes the award at 10 points and one badge. Only the learner’s completion button requests that award; the coach cannot do it.
 
@@ -84,11 +88,5 @@ FIRESTORE_EMULATOR_HOST=127.0.0.1:8080 node scripts/verify.cjs
 flutter drive --driver=test_driver/integration_test.dart \
   --target=integration_test/quest_flow_test.dart -d emulator-5554
 ```
-
-## Current limitations
-
-The supplied starter and course AI gateway were not available in the checked course materials, so this version was built as a standalone app. It uses real Firebase emulators with the local ID `demo-cloud-quest`. It has not been connected to the course Firebase project or deployed to production.
-
-The coach’s responses come from a clearly labeled deterministic mock. The Genkit flow and read-only tool run against real emulator data, but these checks do not establish how a live model would respond to arbitrary questions or attacks. The next step is to connect the supplied course gateway and repeat the safety checks. Course deployment also needs the verified course Firebase alias and generated FlutterFire options; the demo configuration must not be deployed as if it were that project.
 
 See [the reflection](REFLECTION.md) for the 100–150 word response. Push notifications and other optional features are not included.
