@@ -2,7 +2,7 @@
 
 **Undergraduate pathway · Tested on an Android 37.1 emulator (`emulator-5554`)**
 
-Cloud Quest lets a learner sign in, read one daily challenge, ask for a hint, and complete the activity for **10 points and the First Quest badge**. Repeating completion returns the same reward. The project uses its own starter code, following Professor Henry’s November 15 clarification that starter code would not be provided.
+Cloud Quest lets a learner sign in, read one daily challenge, ask for a hint, and complete the activity for **10 points and the First Quest badge**. Repeating completion returns the same reward.
 
 ## Setup and run
 
